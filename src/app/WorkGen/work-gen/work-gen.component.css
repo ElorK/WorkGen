@@ -1,0 +1,11 @@
+
+* {
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    margin: 4px;
+}
+table {
+    display: inline-flex;
+}
