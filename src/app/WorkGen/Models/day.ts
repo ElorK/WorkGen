@@ -8,7 +8,7 @@ export class Day {
         else if (this.morning && this.afternoon)
             time += "בוקר ארוך";
         else if (this.afternoon && this.night)
-            time += "ערב ארוך";
+            time += "לילה ארוך";
         else if (this.night && this.morning)
             time += "לילה ארוך";
         else if (this.morning)
