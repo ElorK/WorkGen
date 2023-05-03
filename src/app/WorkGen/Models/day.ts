@@ -19,8 +19,8 @@ export class Day {
             time += "לילה";
 
         if (!this.comment)
-            return `יום ${this.name}, ${this.date.getDate()}.${this.date.getMonth()}, ${time}`;
+            return `יום ${this.name}, ${this.date.getDate()}.${this.date.getMonth() + 1}, ${time}`;
         else
-            return `יום ${this.name}, ${this.date.getDate()}.${this.date.getMonth()}, ${time}, ${this.comment}`;
+            return `יום ${this.name}, ${this.date.getDate()}.${this.date.getMonth() + 1}, ${time}, ${this.comment}`;
     }
 }
