@@ -38,12 +38,11 @@ export class WorkGenComponent {
   ];
   createSchedule(workdays: Day[]) {
     let newDate = new Date(this.tuesday.date);
+    this.result = "";
     workdays.forEach(workday => {
-      console.log(newDate)
       workday.date = newDate;
       this.result += workday.getDay() + "\n";
       newDate.setDate(newDate.getDate() + 1)
-      console.log(workday)
     });
 
   }
