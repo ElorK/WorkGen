@@ -1,27 +1,8 @@
-# Sandbox
+# WorkGen
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
+It was made as a sandbox Angular project at first, for a specific person's work schedule generation solution, as they repeated updating their contacts in WhatsApp groups about their weekly schedule with the same template every week, written manually.
+The solution is to generate the same message in the same template, ready to copy-paste into those chat groups, using a user-friendly UI.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Purpose
+The schedule is made to generate a three-shift scope, from Tuesday to next Saturday, as this is when the client receives their work schedule from administration every week.
+There is a plan to make it universal and flexible to match any person's schedule.
